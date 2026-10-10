@@ -1,0 +1,20 @@
+{
+  "classes": [
+    "pedestrian",
+    "people",
+    "bicycle",
+    "car",
+    "van",
+    "truck",
+    "tricycle",
+    "awning-tricycle",
+    "bus",
+    "motor"
+  ],
+  "num_classes": 11,
+  "weights": {
+    "yolo": "yolov8m_best.pt",
+    "frcnn": "fasterrcnn_best.pth",
+    "ssd": "ssd_mobilenet_best.pth"
+  }
+}
